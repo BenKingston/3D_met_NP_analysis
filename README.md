@@ -40,6 +40,7 @@ All prediciton models are stored in the .mat file 'svm_quad_all_prediciton_model
 
 *****************************************************
 LICENSE
+
 This software license is the 2-clause BSD license plus a third clause that prohibits redistribution and use for commercial purposes without further permission from the authors of this work (Kingston et al).
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
