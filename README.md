@@ -37,3 +37,17 @@ The inputs required are: 'pre_nuclei' - the pre-processed nuclei channel which i
 All prediciton models are stored in the .mat file 'svm_quad_all_prediciton_models.mat'. The models can be used by executing the command
 'yfit = svm_quad_mean_np_int.predictFcn(testdata);'. yfit will contain the output values and 'svm_quad_mean_np_int' can be replaced with the respective prediciton function for each nanoaprticle delivery metric: 'svm_quad_mean_np_int' to predict the mean nanoparticle intensity per micrometastasis, 'svm_quad_nppos_cell_density' to predict the density of nanoparticle positive cells per micrometastasis, and 'svm_quad_mean_numnppos_cells' to predict the number of nanoparticle positive cells per micrometastasis. 
 
+
+*****************************************************
+LICENSE
+This software license is the 2-clause BSD license plus a third clause that prohibits redistribution and use for commercial purposes without further permission from the authors of this work (Kingston et al).
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Redistributions and use for commercial purposes are not permitted without the written permission of the authors of this work (Kingston et al). For purposes of this license, commercial purposes are the incorporation of the software into anything for which you will charge fees or other compensation or use of the software to perform a commercial service for a third party.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
